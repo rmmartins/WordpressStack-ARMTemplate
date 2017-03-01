@@ -1,0 +1,19 @@
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "admin"
+    },
+    "vmName": {
+      "value": "Nginx"
+    },
+    "artifactsPath": {
+      "value": "https://raw.githubusercontent.com/rmmartins/scripts/master/WordpressStack/"
+    },
+    "customScriptCommandToExecute": {
+      "value": "bash wp-stack-install.sh"
+    },
+    "dnsNameForPublicIP": {
+      "value": "your-dns-name"
+    }
+  }
+}
